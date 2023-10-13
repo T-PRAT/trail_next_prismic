@@ -1,0 +1,68 @@
+{
+  "id": "race",
+  "label": "race",
+  "format": "custom",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
+      "name": {
+        "type": "StructuredText",
+        "config": {
+          "label": "name",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "register": {
+        "type": "Link",
+        "config": {
+          "label": "register",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "description",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph"
+        }
+      },
+      "distance": {
+        "type": "Text",
+        "config": {
+          "label": "distance",
+          "placeholder": ""
+        }
+      },
+      "elevation": {
+        "type": "Text",
+        "config": {
+          "label": "elevation",
+          "placeholder": ""
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "race_cards": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

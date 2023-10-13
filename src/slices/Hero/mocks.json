@@ -1,0 +1,58 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Trail des Templates",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"date": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "21 - 22 juillet",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"image": {
+				"origin": {
+					"id": "GYr9A2CPMhY",
+					"url": "https://images.unsplash.com/photo-1530143311094-34d807799e8f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwzfHxhbGVzc2lvLXNvZ2dldHRpfGVufDB8fHx8MTY5NzE5OTEyNHww&ixlib=rb-4.0.3&q=85",
+					"width": 6016,
+					"height": 4016
+				},
+				"url": "https://images.unsplash.com/photo-1530143311094-34d807799e8f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwzfHxhbGVzc2lvLXNvZ2dldHRpfGVufDB8fHx8MTY5NzE5OTEyNHww&ixlib=rb-4.0.3&q=85",
+				"width": 6016,
+				"height": 4016,
+				"edit": {
+					"background": "transparent",
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			}
+		},
+		"items": []
+	}
+]
